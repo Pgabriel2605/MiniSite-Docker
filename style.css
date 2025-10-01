@@ -1,0 +1,170 @@
+.menu{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    background-color:#f8f9fa;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.lista{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 60px ;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #333333;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+a:hover{
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    color: #2496ED;
+}
+
+/*
+main{
+    margin-left: 280px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+    margin-right: 45px;
+    
+}
+    */
+
+
+h1{
+    text-align: center;
+    padding: 45px 0;
+    margin: 0;
+    width: 100%;
+  font-size: 40px;
+  color: #FFFFFF;
+font-family: 'Times New Roman', Times, serif;
+  
+
+    
+    
+    
+    
+}
+
+#principal{
+     margin-left: 280px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    margin-right: 45px;
+}
+
+#complementar{
+    margin-left: 280px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 25px;
+    margin-right: 45px;
+    
+    
+
+    
+}
+
+main{
+    background-color: #f0f0f0;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+body{
+    background-color:#2496ED;
+    margin: 0;
+    
+}
+
+p{
+    color: #333333;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+h2{
+    font-size: 30px;
+
+}
+span{
+    font-size: 19px ;
+    font-weight: 700;
+}
+
+
+@media (max-width: 768px){
+    .menu{
+        width:100%;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px 0;
+        box-shadow: none;
+    }
+
+    .lista{
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 0;
+    }
+
+    a{
+        padding: 8px;
+    }
+
+    h1{
+        font-size: 1.8em;
+        padding: 30px 10px;
+        
+        
+
+    }
+    #principal,
+    #complementar{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+    }
+    main{
+        margin-left: 0;
+        padding: 10px;
+    }
+}
+
