@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Relatório do Build Automático – GitHub Actions</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background-color: #f5f5f5; }
+    h2, h3 { color: #333; }
+    pre { background-color: #eee; padding: 10px; overflow-x: auto; }
+    ul { background-color: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <h2>Relatório do Build Automático (GitHub Actions)</h2>
+
+  <p><b>Status:</b> Sucesso</p>
+
+  <h3>Log Principal:</h3>
+  <pre>
+Current runner version: '2.328.0'
+Runner Image Provisioner
+Operating System
+Runner Image
+GITHUB_TOKEN Permissions
+Secret source: Actions
+Prepare workflow directory
+Prepare all required actions
+Getting action download info
+Download action repository 'actions/checkout@v4'
+Complete job name: build
+0s
+Run actions/checkout@v4
+Syncing repository: Pgabriel2605/MiniSite-Docker
+Getting Git version info
+...
+Run docker build -t teste-mini-site .
+#0 building with "default" instance using docker driver
+#1 [internal] load build definition from Dockerfile
+#6 [1/3] FROM docker.io/library/nginx:alpine
+#7 [2/3] RUN rm -rf /usr/share/nginx/html/*
+#8 [3/3] COPY . /usr/share/nginx/html
+#9 exporting to image
+#9 naming to docker.io/library/teste-mini-site done
+Post job cleanup.
+  </pre>
+
+  <h3>Resumo das tentativas de correção:</h3>
+  <ul>
+    <li>Commit 1: Primeiro commit, workflow bem-sucedido</li>
+     <li> Commit 2: Adicionar relatório do build do Github Action</li>
+      <li> Commit 3: Adicionar e Atualizar relatório do build do Github Action</li>
+       <li> Commit 4: OK</li>
+        <li> Commit 5: Ajustando leves detalhes</li>
+  </ul>
+</body>
+</html>
